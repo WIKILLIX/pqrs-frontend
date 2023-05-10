@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn-outline {
+        @apply w-24 min-w-max h-10 font-semibold py-1 px-2 border  rounded ml-5 transition-all duration-300;
+    }
+
+    .btn-outline-succes{
+        @apply hover:bg-green-700 text-green-700 border-green-700 hover:text-white;
+    }
+    .btn-outline-danger{
+        @apply hover:bg-red-700 text-red-700 border-red-700 hover:text-white;
+    }
+
+    .btn-outline-info{
+        @apply hover:bg-gray-600 text-gray-700 border-gray-700 hover:text-white;
+    }
+
+    .btn-outline-primary{
+        @apply hover:bg-blue-700 text-blue-700 border-blue-700 hover:text-white;
+    }
+    .btn-outline-warning{
+        @apply hover:bg-yellow-600 text-yellow-600 border-yellow-600 hover:text-white;
+    }
+
+
+}
