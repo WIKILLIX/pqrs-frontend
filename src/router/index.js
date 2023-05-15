@@ -13,7 +13,7 @@ const router = createRouter({
       component:()=>import('../views/HomeView.vue'),
       children:[
         {
-        path:'dependence',
+        path:'dependencias',
         name:'dependence',
         component:()=>import('../modules/pqrs/dependences/views/Index.vue')
       }

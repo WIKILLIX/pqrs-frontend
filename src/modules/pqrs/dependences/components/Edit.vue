@@ -19,8 +19,8 @@
                                 class="bg-[#fff] p-4 rounded-lg shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)] flex flex-col gap-5">
                                 <div class="flex flex-col gap-3 w-[40rem]">
                                     <label for="name">Nombre</label>
-                                    <input class="bg-[#fff] p-4  border-2" placeholder="Nombre" name="name" type="text"
-                                        v-model="dependence.name" />
+                                    <input class="bg-[#fff] p-4  border-2" placeholder="Nombre" name="name" required
+                                        type="text" v-model="dependence.name" />
                                 </div>
 
                                 <div class="flex gap-5 justify-between">

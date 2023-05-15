@@ -5,7 +5,7 @@
 
 @layer components {
     .btn-outline {
-        @apply w-24 min-w-max h-10 font-semibold py-1 px-2 border  rounded ml-5 transition-all duration-300;
+        @apply w-24 max-[524px]:w-20 min-w-max h-10 max-[524px]:h-8 font-semibold py-1 px-2 border  rounded md:ml-5 transition-all duration-300;
     }
 
     .btn-outline-succes{
@@ -26,5 +26,8 @@
         @apply hover:bg-yellow-600 text-yellow-600 border-yellow-600 hover:text-white;
     }
 
+    .menu-hidden{
+        @apply max-md:-translate-x-96 max-md:pointer-events-none max-md:invisible;
+    }
 
 }
